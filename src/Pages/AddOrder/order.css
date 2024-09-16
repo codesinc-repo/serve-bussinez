@@ -1,0 +1,90 @@
+/* ====================== Card_section_after_order ========================== */
+
+.Card_section_after_order {
+
+    header {
+        padding: 1rem 0;
+    }
+
+    header .rating {
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+
+    .order_logo_set img {
+        width: 50px;
+    }
+
+
+    .card {
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .card-header {
+        background-color: #f1f1f1;
+        font-weight: bold;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .order-details h5 {
+        margin-bottom: 15px;
+    }
+
+    .btn-orange {
+        background-color: #ff9800;
+        color: #fff;
+        border: none;
+    }
+
+    .btn-orange:hover {
+        background-color: #e08900;
+    }
+
+    .order-total {
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+    }
+
+    .order-total h5 {
+        font-weight: bold;
+    }
+
+    .order-total .total-amount {
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .btn-continue {
+        background-color: #ff9800;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .btn-continue:hover {
+        background-color: #e08900;
+    }
+
+    .payment-mode img {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .Card_section_after_order{
+        .card-body{
+            padding: 10px;
+        }
+    }
+}

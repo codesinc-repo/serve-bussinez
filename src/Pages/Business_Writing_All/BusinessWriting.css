@@ -1,0 +1,58 @@
+.pt-9 {
+    padding-top: 9rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.set_button_position {
+    position: relative;
+    bottom: 19rem;
+    right: 9rem;
+    width: 45%;
+    color: black;
+
+
+    a {
+
+        font-weight: bold;
+        font-size: 17px;
+        border-radius: 20px;
+        background-color: white !important;
+
+        &:hover {
+            color: white;
+            background-color: white !important;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .set_button_position {
+        position: relative;
+        bottom: 8rem;
+        right: 4rem;
+        width: 45%;
+        color: black;
+
+        button {
+            font-size: 12px;
+        }
+    }
+
+}
+
+@media (max-width:768px) {
+    .set_button_position {
+        position: relative;
+        bottom: 12rem;
+        right: 5rem;
+        width: 45%;
+        color: black;
+
+        button {
+            font-size: 12px;
+        }
+    }
+}

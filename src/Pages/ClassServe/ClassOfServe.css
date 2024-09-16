@@ -1,0 +1,69 @@
+.banner-section {
+    background-image: url("../../../public/images/business banner.jpg");
+    background-color: rgba(0, 0, 0, 0.525);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: auto;
+}
+
+.container-counter {
+    background: #2d6e69;
+}
+
+.container-team .team .row .cards .card i {
+    font-size: 18px;
+}
+
+.cards .card .card-body .card-title {
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cards .card .card-body .card-title:first-child {
+    color: #4b4b4c;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.cards .card .card-body .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.container-hired {
+    background: #4169e1;
+}
+
+.hiring-section button {
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.hiring-section button:hover {
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgb(80, 80, 235);
+    color: white;
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.card-container .card {
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card {
+    transform: rotateY(10deg) scale(1.05);
+}

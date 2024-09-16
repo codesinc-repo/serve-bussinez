@@ -1,0 +1,78 @@
+
+
+@font-face {
+    font-family: 'Calisto MT';
+    src: url('../calisto-mt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Calisto MT', serif, sans-serif;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Calisto MT', serif, sans-serif;
+  }
+  h1, h4{
+      font-weight: 600;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  
+  }
+  a:hover {
+    text-decoration: underline;
+    
+  }
+.banner-section .image-section{
+    background-image: url("../images/writing image.jpg");
+    background-color: rgba(0, 0, 0, 0.525);
+    background-blend-mode: multiply;
+    height: 500px;
+    width: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section .image-section .button-section .button1{
+    background-color: #1e2330; color: white;
+    border: 3px solid rgb(196, 196, 196);
+}
+.banner-section .image-section .button-section .button2{
+    background-color: transparent;
+    border: 3px solid rgb(196, 196, 196);
+}
+.banner-section .image-section .button-section .button1:hover{
+    background-color: transparent;
+    border: 3px solid white;
+
+}
+.banner-section .image-section .button-section .button2:hover{
+    background-color: #1e2330; color: white;
+    border: 3px solid white;
+
+}
+.services-section i{
+    font-size: 40px;
+}
+.services-section button:hover{
+    background-color: #1e2330; color: white;
+    color: white;
+}
+
+.info-section .button-section button:hover{
+    background-color: #1e2330; color: white;
+color: white;
+
+}
+.info-section .button-section a{
+margin-left: 15px;
+}

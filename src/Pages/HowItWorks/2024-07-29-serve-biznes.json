@@ -1,0 +1,49 @@
+{
+  "date": "2024-07-29T11:43:54.224Z",
+  "title": "Serve Biznes",
+  "description": "Our company works in the most professional manner. Our goal is to help students across the world.",
+  "image": "/images/uploads/howitworks.jpg",
+  "sections": [
+    {
+      "section_title": "Register Your Account",
+      "section_content": "A customer who wants to enjoy our academic writing service has to first create an account with us. Users can register with their Google/Facebook account."
+    },
+    {
+      "section_content": "Once the account has been created, you have to select the writing service that you want to order from us. Class of MBA offers 10+ writing services.",
+      "section_title": "Select the Service"
+    },
+    {
+      "section_title": "Fill in the Order Form",
+      "section_content": "After selecting the service, you would have to complete the order form with all the required information which helps our experts complete your papers."
+    },
+    {
+      "section_content": "On the basis of information, you add in the order form, our calculator would generate the order fee. To order process, you have to pay in advance.",
+      "section_title": "Pay the Order Fee"
+    },
+    {
+      "section_title": "How it Works?",
+      "section_content": "\"\"",
+      "section_image": ""
+    },
+    {
+      "section_title": "Servebiznes",
+      "section_content": "At ServeBiznes, we believe in the value of your business and the importance of your time. Every step of our process is designed to ensure your complete satisfaction, from initial consultation to final delivery. We are committed to keeping you informed, meeting your expectations, and delivering results that align with your goals. Your success is our priority, and we take pride in being your trusted partner, dedicated to supporting your business every step of the way.",
+      "section_image": "/images/uploads/how-it-works.png"
+    },
+    {
+      "section_content": "The order fee would be automatically created on the basis of your requirements. You need to pay the order fee in advance as our experts are paid in advance so that they can get all the resources which would help them complete the order on time. You can pay the order fee via debit/credit card or other secure payment gateways.",
+      "section_title": "Make a Deposit to Initiate the Order",
+      "section_image": "/images/uploads/makepayment.webp"
+    },
+    {
+      "section_content": "Once you make the payment, our team would assign a writer/tutor for your order and the work would start right away. If you want to check the progress of the paper or pass on any additional information related to the order you can get in touch with the customer support team. The support team is available 24/7 to answer your queries.",
+      "section_title": "Track Progress of Paper",
+      "section_image": "/images/uploads/trackprogress.webp"
+    },
+    {
+      "section_title": "Get Your Paper & Ask for Revision",
+      "section_content": "The final paper would be delivered to you before the given deadline after the approval of the quality assurance department. The QA would check the paper for all kinds of human errors, plagiarism or missing requirements. Still if they have missed anything and you have found a flaw in the final paper, you are allowed to ask for free revisions.",
+      "section_image": "/images/uploads/trackprogress.webp"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.dashboard_main .dashboard_card{
+
+    box-shadow: inset 0px 0px 10px rgba(0, 36, 77, 0.137);
+
+    .card-text{
+        border: none;
+    }
+}

@@ -1,0 +1,50 @@
+
+.main-container{
+    background-image: url("../../../public/images/HowItWorks.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.500);
+    background-blend-mode: multiply;
+    height: 350px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.text-container{
+    padding-top: 160px;
+    font-weight: 500;
+}
+
+.cards-section{
+    margin-top: -50px;
+}
+
+.card .card-body .card-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+
+
+@media (min-width:320px) and (max-width:728px){
+    .container-hired{
+        padding-top: 20px;
+    }
+    .container-hired .col-lg-4 img{
+        height: 150px;
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-container{
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-container{
+        padding-top: 0px;
+    }
+}
