@@ -1,0 +1,153 @@
+backend:
+  name: git-gateway
+  branch: master # Ensure this matches the branch in your repository
+media_folder: "public/images/uploads" # Folder where user uploaded files should go
+public_folder: "/images/uploads" # Folder path where uploaded files will be accessed in the browser
+
+collections:
+  - name: "honor"
+    label: "Honor"
+    folder: "src/Pages/HonorCode"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "classserve"
+    label: "ClassServe"
+    folder: "src/Pages/ClassServe"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "howitworks"
+    label: "How It Works"
+    folder: "src/Pages/HowItWorks"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "sample"
+    label: "Sample"
+    folder: "src/Pages/Sample"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "blogs"
+    label: "Blogs"
+    folder: "src/Pages/Blogs"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "home"
+    label: "Home"
+    folder: "src/Pages/Home"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string" }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }
+
+  - name: "about"
+    label: "About"
+    folder: "src/Pages/About"
+    create: true
+    format: "json" # Ensure this is set to json
+    extension: "json" # Set the file extension to json
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "Section Content", name: "section_content", widget: "string", required: false }
+          - { label: "Section Image", name: "section_image", widget: "image", required: false }

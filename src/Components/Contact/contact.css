@@ -1,0 +1,108 @@
+
+
+.contact-us {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/images/academic10.jpg");
+    background-color: rgba(0, 0, 0, 0.525);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact-us .background-image {
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    z-index: -1;
+  }
+  
+  .contact-us .background-image img {
+    width: 100%;
+    
+    
+    object-fit: cover;
+    
+  }
+  .contact-us h1{
+    text-align: center;
+  }
+  
+  .contact-us .form-container {
+    
+    position: relative;
+    width: 500px;
+    
+    background-color: #ffffff;
+    padding: 20px;
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* filter: blur(5px); */
+  }
+
+  @media(width < 500px){
+    .contact-us .form-container {
+      width: 100% !important;
+    }
+  }
+  
+  .contact-us label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us input, select {
+    width: 100%;
+    
+    border: 1px solid #ccc;
+    padding: 5px 5px !important;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    
+    font-family: montserratlight;
+    color: #202020;
+  
+    
+    
+  }
+  
+  
+  .contact-us textarea{
+    border: 1px solid #ccc;
+    padding: 16px 5px !important;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    box-shadow: none !important;
+    /* font-family: montserratlight */
+    color: #202020;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+  }
+  
+  .contact-us .get-started {
+    background-color: #2D55CF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #2D55CF;
+  }
+  
+  .contact-us .get-started:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    transition: all ease-in-out .5s;
+  }
